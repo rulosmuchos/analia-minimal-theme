@@ -27,7 +27,9 @@
 			?>
 		</article>
 		<?php 
-		$args = array('post_type' => 'work');?>
+		$args = array(	'post_type' => 'work',
+						'nopaging' => true
+					);?>
 	</div><!-- #primary -->           
 	<div id="container" class="row">
 		<ul class="works-container"> 

@@ -7,6 +7,7 @@
               </div>
 <?php endif;
 $args = array(
+    'nopaging' => true,
     'post_type' => 'work',
     'tax_query' => array(
         array(
