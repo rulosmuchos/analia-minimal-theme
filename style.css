@@ -371,10 +371,8 @@ article.sticky{
     margin:3rem 0 1.5rem
 }
 .archive-title-description:after{
-    border-bottom:1px solid #000;
     content:" ";
     display:block;
-    padding-bottom:1.5rem;
     width:2rem
 }
 #herofeaturedimage{
