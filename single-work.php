@@ -36,17 +36,18 @@
 						<?php endif; ?>
 					<?php the_title(); ?>
 				</h1>
+				<?php the_post_thumbnail( 'post-thumbnail' );?>
 				<?php 
-				 	echo('<div class="entry-meta">');
-				 	the_author(); 
-				 	echo(' &middot; ') ;
-				 	echo minimumminimal_date(); 
-				 	echo('</div>');
+				 	// echo('<div class="entry-meta">');
+				 	// the_author(); 
+				 	// echo(' &middot; ') ;
+				 	// echo minimumminimal_date(); 
+					 // echo('</div>');
+					 
 				?>
 			</header>
 			<div class="entry-content">
-				<?php the_content(); 
-
+				<?php the_content();
 				wp_link_pages( array(
 					'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'minimum-minimal' ) . '</span>',
 					'after'       => '</div>',
@@ -106,5 +107,4 @@
                   
 
 </div> <!-- #container -->
-
 <?php get_footer(); ?>
